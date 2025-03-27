@@ -1,0 +1,49 @@
+/**
+  * @name RosyPlus
+  * @author DevEvil (edit by Nisu083)
+  * @version RosyPlus 1.0
+  * @description Edited DarkPlus to fit the RosyNight style
+  * @authorId 468132563714703390
+  * @authorLink https://devevil.com
+  * @source https://github.com/DevEvil99/DarkPlus-Discord-Theme
+  * @website https://devevil.com
+  * @donate https://devevil.com/dnt
+  * @invite jsQ9UP7kCA
+*/
+
+@import url(https://raw.githubusercontent.com/nin0-dev/vencord-css/refs/heads/master/visual-refresh-spotify-controls.css);
+@import url('https://raw.githubusercontent.com/apricitykin/RosyPlus/refs/heads/main/RosyPlusBase.theme.css');
+
+:root {
+  --darkplus-bg: #181818;
+  --darkplus-bg2: #212121;
+  --darkplus-sec: #fc8686;
+  --darkplus-links: #f3aeae;
+  --darkplus-home-icon: url('https://raw.githubusercontent.com/apricitykin/images/refs/heads/main/RosyIcon.png');
+}
+
+
+
+/* Aligned Chat Box and Typing indicator */
+.container_c48ade {
+  --custom-chat-input-margin-bottom: 22px;
+}
+:root {
+  --custom-channel-textarea-text-area-height: 42px;
+}
+.visual-refresh .base_b88801 {
+  font-size: 13.5px;
+  height: 18px;
+}
+
+.visual-refresh section.panels_c48ade {
+  margin-left: 72px;
+  width: calc(100% - var(--space-xs)*2 - 72px) !important;
+  .actionButtons_e131a9 button {
+    padding: 0;
+  }
+}
+nav.guilds_c48ade {
+  margin-bottom: 0 !important;
+}
+
