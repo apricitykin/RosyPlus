@@ -11,6 +11,8 @@
   * @invite jsQ9UP7kCA
 */
 
+
+@import url("https://nspc911.github.io/themes/vencord/RefreshedSeamlessChatBar.theme.css");
 @import url(https://raw.githubusercontent.com/nin0-dev/vencord-css/refs/heads/master/visual-refresh-spotify-controls.css);
 @import url('https://raw.githubusercontent.com/apricitykin/RosyPlus/refs/heads/main/RosyPlusBase.theme.css');
 
@@ -47,3 +49,42 @@ nav.guilds_c48ade {
   margin-bottom: 0 !important;
 }
 
+.bar_c38106{
+    z-index: 28371983721897;
+}
+.title_c38106{
+    background-color: transparent;
+    background: linear-gradient(to bottom, var(--background-base-lowest), #00000000);
+}
+.title_a7d72e{
+    -webkit-app-region: drag;
+}
+
+.sidebar_c48ade{
+    overflow: visible !important;
+    position: relative;
+}
+
+.sidebarList_c48ade{
+    margin-left: 72px;
+}
+
+.wrapper_ef3116{
+    position: absolute;
+    top: -35px;
+    height: calc(100vh - 65px);
+    /* padding-top: 10px; */
+}
+
+[class^="stack_dbd263 scroller_ef3116"]{
+    padding-top: 40px !important;
+}
+.theme-darker {
+    --background-secondary-alt: color-mix(in oklab,var(--neutral-82) 100%, var(--theme-base-color,#000) var(--theme-base-color-amount, 0%));
+    --bg-surface-overlay: color-mix(in oklab, var(--primary-800) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
+}
+
+.theme-midnight {
+    --background-secondary-alt: color-mix(in oklab, var(--neutral-95) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
+    --bg-surface-overlay: color-mix(in oklab, var(--primary-800) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
+}
